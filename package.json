@@ -1,0 +1,25 @@
+{
+  "name": "app_de_controle_de_financias",
+  "version": "1.0.0",
+  "description": "Aplicação de controle financeiro",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carloshenriquechrs/myfinances.git"
+  },
+  "author": "chrs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carloshenriquechrs/myfinances/issues"
+  },
+  "homepage": "https://github.com/carloshenriquechrs/myfinances#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "mysql2": "^3.11.3",
+    "sequelize": "^6.37.3"
+  }
+}
